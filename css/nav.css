@@ -1,0 +1,39 @@
+#nav {
+    background-color: #2D2C2F;
+    border-bottom: 1px solid #005774;
+    font-size:1.6em;
+    font-family: sans-serif;
+}
+
+#nav ul {
+    list-style:none;
+    padding:0;
+    margin:auto;
+    width:60em;
+}
+
+#nav li {
+    padding:0;
+    margin:0;
+    display:inline-block;
+}
+
+#nav a {
+    text-decoration:none;
+    color:#999999;
+    padding:0.5em 1em 0.5em 1em;
+    display:inline-block;
+    outline:none;
+}
+
+#nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#nav a:focus {
+border:2px solid #ffffff;
+    -webkit-border-radius: 0.4em;
+    -moz-border-radius: 0.4em;
+    border-radius: 0.4em;
+}

@@ -1,0 +1,18 @@
+syntax: glob
+.svn
+.htaccess
+*.orig
+*.rej
+*.log
+.DS_Store
+:2e*
+.AppleDesktop
+.AppleDesktop/*
+.AppleDouble
+.AppleDouble/*
+.AppleDB
+.AppleDB/*
+*runtime*
+protected/config/main.php
+assets/
+protected/uploads

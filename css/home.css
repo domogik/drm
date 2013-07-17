@@ -1,0 +1,59 @@
+﻿body {
+    background-color: #E9EBEA;
+}
+
+.name {
+    font-weight: bold;
+}
+
+#repositories {
+    font-size:1.6em;
+    width:60em;
+    margin:auto;
+}
+
+#repositories ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#repositories li {
+    background-color: #FFFFFF;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    border:3px solid #005774;
+    margin:1em 0 1em 0;
+    padding:0;
+    -webkit-border-radius: 0.8em 0em 0.8em 0em;
+    -moz-border-radius: 0.8em 0em 0.8em 0em;
+    border-radius: 0.8em 0em 0.8em 0em;
+}
+
+#repositories a.title {
+    float:right;
+    background-color: #2D2C2F;
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:0.5em 1em 0.5em 1em;
+    font-weight:bold;
+    border-left:2px solid #2D2C2F;
+    border-bottom:2px solid #2D2C2F;
+    outline:none;
+}
+
+#repositories a.title:hover, #repositories a.title:focus, #repositories a.title:active {
+    color: #2D2C2F;
+    background-color: #FFFFFF;
+}
+
+#repositories li .description {
+    width:40em;
+    margin:auto;
+}
+
+#repositories li { background-image: url('../images/icon-testing.png'); }
+#repositories .icon-stable { background-image: url('../images/icon-stable.png'); }
+#repositories .icon-experimental { background-image: url('../images/icon-experimental.png'); }
+#repositories .icon-testing { background-image: url('../images/icon-testing.png'); }
+#repositories .icon-nightly { background-image: url('../images/icon-nightly.png'); }
